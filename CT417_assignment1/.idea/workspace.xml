@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbf0916-1806-4b37-9ea2-576fc4b6df00" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1imd5lyQZcgTT1W5tQw7V3dxqxw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentTest.getUsernameBehavesCorrectly">
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CT417_assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.getUsernameBehavesCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CT417_assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="getUsernameBehavesCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentTest.getUsernameBehavesCorrectly" />
+        <item itemvalue="JUnit.StudentTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbf0916-1806-4b37-9ea2-576fc4b6df00" name="Default Changelist" comment="" />
+      <created>1602516520840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602516520840</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="15" key="#Project_Structure" timestamp="1602516578985">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="500" y="15" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1602516578985" />
+    <state x="201" y="193" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1602519746588">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="201" y="193" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602519746588" />
+    <state width="1188" height="133" key="GridCell.Tab.0.bottom" timestamp="1602537028808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1188" height="133" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602537028808" />
+    <state width="1188" height="133" key="GridCell.Tab.0.center" timestamp="1602537028808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1188" height="133" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602537028808" />
+    <state width="1188" height="133" key="GridCell.Tab.0.left" timestamp="1602537028808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1188" height="133" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602537028808" />
+    <state width="1188" height="133" key="GridCell.Tab.0.right" timestamp="1602537028808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1188" height="133" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602537028808" />
+    <state x="219" y="127" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602520688602">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="219" y="127" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1602520688602" />
+  </component>
+</project>
