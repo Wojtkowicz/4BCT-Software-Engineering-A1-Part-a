@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="software_engineering_project" />
         <module name="CT417_assignment1" />
+        <module name="software_engineering_project_part_a" />
       </profile>
     </annotationProcessing>
   </component>
