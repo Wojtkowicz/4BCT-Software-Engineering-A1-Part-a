@@ -14,12 +14,12 @@ public class StudentTest {
     private final Integer age = 22;
     private final String DOB = "25/01/1990";
     private final Long ID = 236385649L;
-    private final List<Module> registeredModules = List.of();//mock(Module.class), mock(Module.class), mock(Module.class)
-    private final List<CourseProgramme> registeredCourses = List.of();//mock(CourseProgramme.class), mock(CourseProgramme.class), mock(CourseProgramme.class)
+    //private final List<Module> registeredModules = List.of();//mock(Module.class), mock(Module.class), mock(Module.class)
+    //private final List<CourseProgramme> registeredCourses = List.of();//mock(CourseProgramme.class), mock(CourseProgramme.class), mock(CourseProgramme.class)
 
     @Before
     public void setUp(){
-        classUnderTest = new Student(name, age, DOB, ID, registeredModules, registeredCourses);
+        classUnderTest = new Student(name, age, DOB, ID);
     }
 
     @Test

@@ -5,13 +5,12 @@ public class Module {
     private String name;
     private Long ID;
     private List<Student> studentsEnrolled;
-    private List<CourseProgramme> courseProgrammes;
+    //private List<CourseProgramme> courseProgrammes;
 
-    public Module(final String name, final Long ID, final List<Student> studentsEnrolled, final List<CourseProgramme> courseProgrammes){
+    public Module(final String name, final Long ID, final List<Student> studentsEnrolled){
         this.setName(name);
         this.setID(ID);
         this.setStudentsEnrolled(studentsEnrolled);
-        this.setCourseProgramme(courseProgrammes);
     }
 
     public String getName() {
@@ -36,13 +35,5 @@ public class Module {
 
     public void setStudentsEnrolled(List<Student> studentsEnrolled) {
         this.studentsEnrolled = studentsEnrolled;
-    }
-
-    public List<CourseProgramme> getCourseProgramme() {
-        return courseProgrammes;
-    }
-
-    public void setCourseProgramme(List<CourseProgramme> courseProgramme) {
-        this.courseProgrammes = courseProgramme;
     }
 }

@@ -6,14 +6,12 @@ public class CourseProgramme {
 
     private String name;
     private List<Module> modules;
-    private List<Student> enrolledStudents;
     private DateTime academicStartDate;
     private DateTime academicEndDate;
 
-    public CourseProgramme(final String name, final List<Module> modules, final List<Student> enrolledStudents, final DateTime academicStartDate, final DateTime academicEndDate){
+    public CourseProgramme(final String name, final List<Module> modules, final DateTime academicStartDate, final DateTime academicEndDate){
         this.setName(name);
         this.setModules(modules);
-        this.setEnrolledStudents(enrolledStudents);
         this.setAcademicStartDate(academicStartDate);
         this.setAcademicEndDate(academicEndDate);
     }
@@ -32,14 +30,6 @@ public class CourseProgramme {
 
     public void setModules(List<Module> modules) {
         this.modules = modules;
-    }
-
-    public List<Student> getEnrolledStudents() {
-        return enrolledStudents;
-    }
-
-    public void setEnrolledStudents(List<Student> enrolledStudents) {
-        this.enrolledStudents = enrolledStudents;
     }
 
     public DateTime getAcademicStartDate() {
