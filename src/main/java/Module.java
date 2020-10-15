@@ -3,11 +3,11 @@ import java.util.List;
 public class Module {
 
     private String name;
-    private Long ID;
+    private String ID;
     private List<Student> studentsEnrolled;
     //private List<CourseProgramme> courseProgrammes;
 
-    public Module(final String name, final Long ID, final List<Student> studentsEnrolled){
+    public Module(final String name, final String ID, final List<Student> studentsEnrolled){
         this.setName(name);
         this.setID(ID);
         this.setStudentsEnrolled(studentsEnrolled);
@@ -21,11 +21,11 @@ public class Module {
         this.name = name;
     }
 
-    public Long getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(Long ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 
