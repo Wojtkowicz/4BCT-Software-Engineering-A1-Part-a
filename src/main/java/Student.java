@@ -1,5 +1,10 @@
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
+@Data
+@NoArgsConstructor
 public class Student {
 
     private String name;
@@ -7,8 +12,8 @@ public class Student {
     private String DOB;
     private Long ID;
     private String username;
-    //private List<Module> registeredModules;
-    //private List<CourseProgramme> registeredCourses;
+    private List<Module> registeredModules;
+    private List<CourseProgramme> registeredCourses;
 
     public Student(final String name, final Integer age, final String DOB, final Long ID){
         this.setName(name);
@@ -20,41 +25,5 @@ public class Student {
 
     public String getUsername(){
        return (name.replaceAll("\\s","") + age);
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getDOB() {
-        return DOB;
-    }
-
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
-    }
-
-    public Long getID() {
-        return ID;
-    }
-
-    public void setID(Long ID) {
-        this.ID = ID;
     }
 }
