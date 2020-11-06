@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk11
+
+build:
+  ci:
+    - mvn clean package
+
+notifications:
+  email:
+    recipients:
+      - jakub.wojtkowicz@gmail.com
